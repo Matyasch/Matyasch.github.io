@@ -1,9 +1,8 @@
 ---
 title: "Beyond the imitation game: Quantifying and extrapolating the capabilities of language models"
 authors:
-- Lots of other people
+- Srivastava et al
 - admin
-- More people
 date: "2022-06-09"
 doi: "10.48550/arXiv.2206.04615"
 
