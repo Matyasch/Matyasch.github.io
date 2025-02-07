@@ -54,6 +54,7 @@ markup:
     lineNos: false
 security:
   _merge: deep
+  enableInlineShortcodes: true
 sitemap:
   _merge: deep
 share: false

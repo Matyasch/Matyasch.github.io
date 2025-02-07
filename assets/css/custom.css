@@ -1,0 +1,78 @@
+.max-w-prose {
+    max-width: 100%;
+}
+
+.project-title {
+    font-size: 150%;
+}
+
+.project-abstract {
+    max-width: 64rem;
+    text-align: justify;
+}
+
+.project-paragraph {
+    max-width: 80rem;
+    text-align: justify;
+}
+
+.project-figure {
+    margin: auto;
+    max-width: 80rem;
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+}
+
+.snap-btn {
+    border: 2px solid rgb(16, 15, 15);
+    padding: 6px 12px;
+    margin: 0px 4px 0px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.snap-btn:hover {
+    border: 2px solid rgb(102, 128, 11);
+    --color-primary-300: 102 128 11;
+    border-radius: 12px;
+}
+
+.blox-resume-biography-3 {
+    max-width: 62rem;
+    margin: auto;
+}
+
+.snap {
+    color: rgb(16, 15, 15);
+    --tw-prose-links: rgb(16, 15, 15);
+    --tw-prose-body: rgb(16, 15, 15);
+
+    --color-primary-300: 102 128 11;
+    --color-neutral-500: 135 154 57;
+
+    text-align: center;
+}
+
+video {
+    clip-path: fill-box;
+    display: block;
+    margin: 0 auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-footer {
+    margin-top: -10%;
+}
+
+:is(.dark .dark\:text-slate-200) {
+    color: rgb(111 110 105/var(--tw-text-opacity));
+}
