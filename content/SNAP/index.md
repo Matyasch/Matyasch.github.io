@@ -46,7 +46,7 @@ sections:
   - block: markdown
     content:
       text: |-
-        <video width=50% controls autoplay muted style="margin-top: 0px"><source src="snap_intro.mp4" type="video/mp4"/>
+        <video width=50% controls autoplay muted><source src="snap_intro.mp4" type="video/mp4"></video>
     design:
       css_style: "padding-bottom: 2rem"
       background:
@@ -104,7 +104,7 @@ sections:
           <p class="project-title">Possible Ancestors are All You Need</p>
           <p class="project-paragraph">
             Discovering uninformative parts of the causal graph wastes computational resources.
-            Conversely, Removing all non-target variables risks confounded causal effects and fewer identifiable causal relations.
+            Conversely, removing all non-target variables risks confounded causal effects and fewer identifiable causal relations.
             Even with hints about a valid adjustment set, causal discovery might still not be able to verify all relevant causal relations.
           </p>
           <div class="project-figure" style="display: flex;">
@@ -171,7 +171,7 @@ sections:
             The result is the full graph restricted to the possible ancestors of the targets, ensuring the same valid and efficient adjustment sets as full-graph discovery.
           </p>
           <div class="project-figure">
-            <video width=80% controls muted><source src="snap_vs_pc.mp4" type="video/mp4"/>
+            <video width=80% controls muted><source src="snap_vs_pc.mp4" type="video/mp4"></video>
             <i><b>SNAP{{< math >}}$(\infty)${{< /math >}} needs much fewer CI tests</b> than PC to find <span style="color: rgb(32, 94, 166)">optimal adjustment sets</span> for the causal effects between <span style="color: rgb(102, 128, 11)">targets</span>, by progressively removing <span style="color: rgb(175, 48, 41)">definite non-ancestors</span>.</i>
           </div>
         </span>
