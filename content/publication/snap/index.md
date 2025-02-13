@@ -29,6 +29,6 @@ url_pdf: 'https://arxiv.org/abs/2502.07857'
 url_code: 'https://github.com/matyasch/snap'
 links:
 - name: Project
-  url: /SNAP
+  url: /snap
 
 ---
