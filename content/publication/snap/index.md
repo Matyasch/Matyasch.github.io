@@ -25,10 +25,10 @@ abstract: "Causal discovery can be computationally demanding for large numbers o
 
 # Custom links (uncomment lines below)
 
-# url_pdf: 'https://openreview.net/pdf?id=uyTL5Bvosj'
+url_pdf: 'https://arxiv.org/abs/2502.07857'
 url_code: 'https://github.com/matyasch/snap'
-# links:
-# - name: Project
-#   url: /SNAP
+links:
+- name: Project
+  url: /SNAP
 
 ---

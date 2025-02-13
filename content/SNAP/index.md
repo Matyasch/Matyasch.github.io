@@ -36,7 +36,7 @@ sections:
 
           Artificial Intelligence and Statistics (AISTATS), 2025
 
-          <a href="https://google.com" target="_blank" class="snap-btn"><i class="fa-solid fa-file-pdf"></i> Paper</a>
+          <a href="https://arxiv.org/abs/2502.07857" target="_blank" class="snap-btn"><i class="fa-solid fa-file-pdf"></i> Paper</a>
           <a href="https://github.com/matyasch/SNAP" target="_blank" class="snap-btn"><i class="fa-solid fa-code"></i> Code</a>
         </span>
     design:
@@ -223,7 +223,7 @@ sections:
         <br>
         <span style="font-size: 80%;">Check out the following links!</span>
 
-        <a href="https://google.com" target="_blank" class="snap-btn"><i class="fa-solid fa-file-pdf"></i> Paper</a>
+        <a href="https://arxiv.org/abs/2502.07857" target="_blank" class="snap-btn"><i class="fa-solid fa-file-pdf"></i> Paper</a>
         <a href="https://github.com/matyasch/SNAP" target="_blank" class="snap-btn"><i class="fa-solid fa-code"></i> Code</a>
         </span>
     design:
