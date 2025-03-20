@@ -175,6 +175,7 @@ sections:
             <video width=80% controls muted><source src="snap_vs_pc.mp4" type="video/mp4"></video>
             <i><b>SNAP{{< math >}}$(\infty)${{< /math >}} needs much fewer CI tests</b> than PC to find <span style="color: rgb(32, 94, 166)">optimal adjustment sets</span> for the causal effects between <span style="color: rgb(102, 128, 11)">targets</span>, by progressively removing <span style="color: rgb(175, 48, 41)">definite non-ancestors</span>.</i>
           </div>
+          <br>
         </span>
     design:
       background:
@@ -211,24 +212,30 @@ sections:
                 <i><b>Difference</b> in time between with and without prefiltering with SNAP(0).</i>
             </div>
           </div>
+          <br>
         </span>
     design:
       background:
-        color: rgb(255, 252, 240)
+        color: rgb(242, 240, 229)
   ###### Outro ######
   - block: markdown
     content:
       text: |-
         <span class="snap">
-        <span style="font-size: 160%;">Want to learn more about SNAP?</span>
-        <br>
-        <span style="font-size: 80%;">Check out the following links!</span>
+        <span style="font-size: 160%;">Citation</span>
 
-        <a href="https://arxiv.org/abs/2502.07857" target="_blank" class="snap-btn"><i class="fa-solid fa-file-pdf"></i> Paper</a>
-        <a href="https://github.com/matyasch/SNAP" target="_blank" class="snap-btn"><i class="fa-solid fa-code"></i> Code</a>
+        ```bib
+        @inproceedings{schubert2025snap,
+            title={{SNAP}: Sequential Non-Ancestor Pruning for Targeted Causal Effect Estimation With an Unknown Graph},
+            author={M{\'a}ty{\'a}s Schubert and Tom Claassen and Sara Magliacane},
+            booktitle={The 28th International Conference on Artificial Intelligence and Statistics},
+            year={2025},
+            url={https://openreview.net/forum?id=0gEjlLdjK9}
+        }
+        ```
         </span>
     design:
-      css_style: "text-align: center; padding-bottom:10rem"
+      css_style: "text-align: left; padding-bottom:10rem"
       background:
         color: rgb(255, 252, 240)
 ---
